@@ -1,0 +1,28 @@
+Style/AsciiComments:
+  Description: 'Use only ascii symbols in comments.'
+  StyleGuide: '#english-comments'
+  Enabled: false
+
+Metrics/BlockLength:
+  CountComments: false  # count full line comments?
+  Max: 100
+
+Metrics/LineLength:
+  Max: 120
+Metrics/AbcSize:
+  # The ABC size is a calculated magnitude, so this number can be an Integer or
+  # a Float.
+  Max: 30
+
+Metrics/MethodLength:
+  CountComments: false  # count full line comments?
+  Max: 30
+
+Metrics/CyclomaticComplexity:
+  Max: 7
+
+Metrics/PerceivedComplexity:
+  Max: 8
+
+AllCops:
+  TargetRubyVersion: 2.3.3
