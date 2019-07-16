@@ -9,7 +9,7 @@ TODO: Delete this and the text above, and describe your gem
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'xconsul', git: 'git@123.59.84.25:wangzhichao/xconsul.git', tag: 'v0.x.x'
+gem 'xconsul', git: 'git@xxxx/xconsul.git', tag: 'v0.x.x'
 ```
 
 And then execute:
