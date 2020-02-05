@@ -11,13 +11,13 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{consul 获取hosts + 负载均衡}
   spec.description   = %q{通过consul服务获取指定服务hosts，并且使用简单的负载均衡策略，返回一个host:port}
-  spec.homepage      = "http://www.yimeijian.cn"
-  spec.license       = "private"
+  spec.homepage      = "https://github.com/zhchsf/xconsul"
+  spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
   if spec.respond_to?(:metadata)
-    spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
+    spec.metadata["allowed_push_host"] = "TODO: Set to 'https://rubygems.org'"
   else
     raise "RubyGems 2.0 or newer is required to protect against " \
       "public gem pushes."
